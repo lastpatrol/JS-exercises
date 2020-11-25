@@ -11,10 +11,9 @@ N = 3; Answer = 3 (1 + 1 + 1 шага; 1 + 2 шага; 2 + 1 шага)
 */
 
 const countSteps = (num) => {
-  if 
-  (num < 3) {
+  if (num < 3) {
     return num;
-      }
+  }
 
   return countSteps(num - 1) + countSteps(num - 2);
 };
