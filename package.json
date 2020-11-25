@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Just learning to code.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "npx -n --experimental-vm-modules jest",
     "lint": "npx eslint ."
