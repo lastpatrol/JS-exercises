@@ -1,5 +1,5 @@
 /*
-Задача: вы поднимаетесь по лестнице, 
+Задача: вы поднимаетесь по лестнице,
 и вам необходимо сделать N шагов, чтобы добраться до вашего этажа.
 Каждый раз вы можете сделать либо 1, либо 2 шага.
 Посчитайте, сколько всего различных способов у вас есть, чтобы сделать это.
@@ -10,12 +10,13 @@ N = 2; Answer = 2 (1 + 1 шага; 2 шага)
 N = 3; Answer = 3 (1 + 1 + 1 шага; 1 + 2 шага; 2 + 1 шага)
 */
 
-const countSteps = (steps) => {
-  if (steps < 3) {
-    return steps;
-  }
+const countSteps = (num) => {
+  if 
+  (num < 3) {
+    return num;
+      }
 
-  return countSteps(steps - 1) + countSteps(steps - 2);
+  return countSteps(num - 1) + countSteps(num - 2);
 };
 
 export default countSteps;
