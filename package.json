@@ -44,5 +44,9 @@
       "npm run lint",
       "npm test --findRelatedTests"
     ]
+  },
+  "dependencies": {
+    "crc-32": "^1.2.0",
+    "lodash": "^4.17.21"
   }
 }
